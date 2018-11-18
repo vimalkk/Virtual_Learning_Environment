@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="300.0" prefWidth="500.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="virtual_learning_environment.Controller">
+    <children>
+        <VBox alignment="CENTER" prefHeight="300.0" prefWidth="500.0">
+            <children>
+                <HBox fx:id="txtMailOTP" alignment="CENTER" prefHeight="0.0" prefWidth="500.0">
+                    <children>
+                        <JFXTextField fx:id="txtOtpMail" focusColor="#990000" labelFloat="true" prefHeight="29.0" prefWidth="440.0" promptText="OTP" />
+                    </children>
+                    <padding>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                    </padding>
+                </HBox>
+                <HBox alignment="CENTER" prefHeight="0.0" prefWidth="500.0">
+                    <children>
+                        <JFXButton fx:id="btnMailNext" onMouseClicked="#mailOTP" prefHeight="31.0" prefWidth="152.0" style="-fx-background-color: #990000; -fx-background-radius: 20;" text="Next" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="15.0" />
+                            </font>
+                            <graphic>
+                                <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../images/next.png" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                        </JFXButton>
+                    </children>
+                    <padding>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                    </padding>
+                </HBox>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

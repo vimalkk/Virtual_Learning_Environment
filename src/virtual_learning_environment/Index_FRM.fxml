@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="638.0" prefWidth="1030.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="virtual_learning_environment.Index_FRMController">
+    <children>
+        <HBox layoutX="206.0" prefHeight="106.0" prefWidth="953.0" AnchorPane.leftAnchor="4.0" AnchorPane.rightAnchor="-4.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <AnchorPane prefHeight="86.0" prefWidth="688.0" HBox.hgrow="SOMETIMES">
+                    <children>
+                        <Label layoutX="309.0" layoutY="11.0" prefHeight="63.0" prefWidth="655.0" text="Virtual Learning Enviroment" AnchorPane.leftAnchor="309.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="11.0">
+                            <font>
+                                <Font name="Gabriola" size="55.0" />
+                            </font>
+                        </Label>
+                        <ImageView fitHeight="68.0" fitWidth="84.0" layoutX="196.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/logo.jpg" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="81.0" fitWidth="190.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/slogan.jpg" />
+                            </image>
+                        </ImageView>
+                    </children>
+                    <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                    </HBox.margin>
+                </AnchorPane>
+            </children>
+        </HBox>
+        <HBox fx:id="hboxBtns" alignment="CENTER_RIGHT" layoutX="5.0" layoutY="110.0" prefHeight="33.0" prefWidth="979.0" style="-fx-background-color: #990000;" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0">
+            <children>
+                <JFXButton fx:id="btnIndexAboutUs" alignment="CENTER" onMouseClicked="#btnIndex_AboutUs" prefHeight="34.0" prefWidth="205.0" text="_About Us" textFill="#fcfcfc">
+                    <opaqueInsets>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                    </opaqueInsets>
+                    <font>
+                        <Font name="System Bold" size="13.0" />
+                    </font>
+                    <graphic>
+                        <ImageView fitHeight="23.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/aboutUs.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </JFXButton>
+                <JFXButton fx:id="btnIndexSignUp" alignment="CENTER" onAction="#btnIndex_SignUp" prefHeight="34.0" prefWidth="205.0" text="_SignUp" textFill="#fcfcfc">
+                    <opaqueInsets>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                    </opaqueInsets>
+                    <font>
+                        <Font name="System Bold" size="13.0" />
+                    </font>
+                    <graphic>
+                        <ImageView fitHeight="23.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/signUp.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </JFXButton>
+                <JFXButton fx:id="btnIndexLogIn" alignment="CENTER" onAction="#btnIndex_LogIn" prefHeight="34.0" prefWidth="205.0" text="_LogIn" textFill="#fcfcfc">
+                    <opaqueInsets>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                    </opaqueInsets>
+                    <font>
+                        <Font name="System Bold" size="13.0" />
+                    </font>
+                    <graphic>
+                        <ImageView fitHeight="23.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/login.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </JFXButton>
+            </children>
+        </HBox>
+        <AnchorPane fx:id="anchorPaneHome" prefHeight="486.0" prefWidth="1010.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="147.0" />
+    </children>
+</AnchorPane>

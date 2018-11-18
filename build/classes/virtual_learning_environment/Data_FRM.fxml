@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane style="-fx-background-color: white;" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="virtual_learning_environment.Controller">
+    <children>
+        <AnchorPane layoutX="10.0" layoutY="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <VBox alignment="CENTER" prefHeight="702.0" prefWidth="833.0" style="-fx-background-color: white;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <children>
+                        <HBox alignment="CENTER" prefHeight="70.0" prefWidth="833.0" style="-fx-background-color: #eecd86; -fx-background-insets: 5;">
+                            <children>
+                                <JFXButton fx:id="btnDataUpload" onMouseClicked="#btnData_UploadFile" prefHeight="50.0" prefWidth="200.0" ripplerFill="#ffffff00" text="Upload File" textFill="#990000">
+                                    <graphic>
+                                        <ImageView fitHeight="42.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../images/uploadFile.png" />
+                                            </image>
+                                        </ImageView>
+                                    </graphic>
+                                    <font>
+                                        <Font name="System Bold" size="12.0" />
+                                    </font>
+                                </JFXButton>
+                                <JFXButton onMouseClicked="#btnData_DownloadFile" prefHeight="50.0" prefWidth="200.0" ripplerFill="#ffffff00" text="Download FIie" textFill="#990000">
+                                    <graphic>
+                                        <ImageView fx:id="btnDataDownload" fitHeight="42.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../images/dowloadFile.png" />
+                                            </image>
+                                        </ImageView>
+                                    </graphic>
+                                    <font>
+                                        <Font name="System Bold" size="12.0" />
+                                    </font>
+                                </JFXButton>
+                            </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="533.0" prefWidth="833.0">
+                            <children>
+                                <AnchorPane fx:id="anchorPane2" prefHeight="324.0" prefWidth="833.0" />
+                            </children>
+                        </HBox>
+                    </children>
+                </VBox>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

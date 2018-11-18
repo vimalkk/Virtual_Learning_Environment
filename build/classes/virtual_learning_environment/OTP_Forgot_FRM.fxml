@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="300.0" prefWidth="500.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="virtual_learning_environment.Controller">
+    <children>
+        <VBox alignment="CENTER" prefHeight="300.0" prefWidth="500.0">
+            <children>
+                <HBox alignment="CENTER" prefHeight="0.0" prefWidth="500.0">
+                    <children>
+                        <JFXTextField fx:id="txtOtpForgot" focusColor="#990000" labelFloat="true" prefHeight="29.0" prefWidth="411.0" promptText="OTP" />
+                    </children>
+                    <VBox.margin>
+                        <Insets />
+                    </VBox.margin>
+                    <padding>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                    </padding>
+                </HBox>
+                <HBox alignment="CENTER" prefHeight="0.0" prefWidth="500.0">
+                    <children>
+                        <JFXButton fx:id="btnForgotVerify" onMouseClicked="#forgotOTP" prefHeight="31.0" prefWidth="152.0" style="-fx-background-color: #990000; -fx-background-radius: 20;" text="Verify" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="15.0" />
+                            </font>
+                        </JFXButton>
+                    </children>
+                    <VBox.margin>
+                        <Insets />
+                    </VBox.margin>
+                    <padding>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                    </padding>
+                </HBox>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

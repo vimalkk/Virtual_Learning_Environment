@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.TextFlow?>
+
+<AnchorPane prefHeight="1802.0" prefWidth="809.0" style="-fx-background-color: #FFFFFF;" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="5.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <ScrollPane layoutX="-7.0" pannable="true" prefHeight="407.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <content>
+                <TextFlow prefHeight="1009.0" prefWidth="809.0">
+                    <children>
+                        <Label prefHeight="17.0" prefWidth="811.0" text="Profile" textFill="#990000">
+                            <padding>
+                                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                            </padding>
+                            <font>
+                                <Font name="System Bold" size="17.0" />
+                            </font>
+                        </Label>
+                        <Label prefHeight="17.0" prefWidth="797.0" text="Edit Profle">
+                            <font>
+                                <Font name="System Bold" size="15.0" />
+                            </font>
+                            <padding>
+                                <Insets left="10.0" />
+                            </padding>
+                        </Label>
+                        <Label prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;Goto Profile">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;Goto Edit Profile">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;Change the profile data">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;Click on Update to save changes">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label prefHeight="17.0" prefWidth="797.0" text="Show Profle">
+                            <font>
+                                <Font name="System Bold" size="15.0" />
+                            </font>
+                            <padding>
+                                <Insets left="10.0" top="10.0" />
+                            </padding>
+                        </Label>
+                        <Label prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;Goto Profile">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;Goto Show Profile">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label prefHeight="17.0" prefWidth="811.0" text="Teacher" textFill="#990000">
+                            <padding>
+                                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                            </padding>
+                            <font>
+                                <Font name="System Bold" size="17.0" />
+                            </font>
+                        </Label>
+                        <Label prefHeight="17.0" prefWidth="797.0" text="Create Subject">
+                            <font>
+                                <Font name="System Bold" size="15.0" />
+                            </font>
+                            <padding>
+                                <Insets left="10.0" />
+                            </padding>
+                        </Label>
+                        <Label prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;Goto Create Subject">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;Enter Subject Name">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;Subject Code generated automatically which students can use to add your subject to their profile">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;Click on Create Subject to create subject">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label prefHeight="17.0" prefWidth="811.0" text="Student" textFill="#990000">
+                            <padding>
+                                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                            </padding>
+                            <font>
+                                <Font name="System Bold" size="17.0" />
+                            </font>
+                        </Label>
+                        <Label prefHeight="17.0" prefWidth="797.0" text="Add Subject">
+                            <font>
+                                <Font name="System Bold" size="15.0" />
+                            </font>
+                            <padding>
+                                <Insets left="10.0" />
+                            </padding>
+                        </Label>
+                        <Label prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;Goto Add Subject">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;Enter Subject Code which is given by subject teacher">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;Click on Add subject to add subject">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label prefHeight="17.0" prefWidth="811.0" text="Data" textFill="#990000">
+                            <padding>
+                                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                            </padding>
+                            <font>
+                                <Font name="System Bold" size="17.0" />
+                            </font>
+                        </Label>
+                        <Label prefHeight="17.0" prefWidth="797.0" text="To upload data">
+                            <font>
+                                <Font name="System Bold" size="15.0" />
+                            </font>
+                            <padding>
+                                <Insets left="10.0" />
+                            </padding>
+                        </Label>
+                        <Label prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;Goto Data">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;Goto Upload File">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;Select the Subject from Combobox">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;Click on Browse button and select file or data which you want to upload">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="629.0" prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;Click on Upload to upload the data">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label prefHeight="17.0" prefWidth="797.0" text="To download data">
+                            <font>
+                                <Font name="System Bold" size="15.0" />
+                            </font>
+                            <padding>
+                                <Insets left="10.0" top="10.0" />
+                            </padding>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="569.0" prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;Goto Data">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="589.0" prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;Goto Download File">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="609.0" prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;Select the file name which is listed in the table">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="629.0" prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;You get the file name below the table list">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="649.0" prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;Click on Download button to download the data">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="669.0" prefHeight="17.0" prefWidth="797.0" text="To delete data">
+                            <font>
+                                <Font name="System Bold" size="15.0" />
+                            </font>
+                            <padding>
+                                <Insets left="10.0" top="10.0" />
+                            </padding>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="700.0" prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;Goto Data">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="720.0" prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;Goto Upload file">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="740.0" prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;Select the table row which you want to download">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="760.0" prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;You get the file name in the text box below the table ">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="780.0" prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;Click on Delete button to delete the data">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="502.0" prefHeight="17.0" prefWidth="811.0" text="Task" textFill="#990000">
+                            <padding>
+                                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                            </padding>
+                            <font>
+                                <Font name="System Bold" size="17.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="548.0" prefHeight="17.0" prefWidth="797.0" text="To upload task">
+                            <font>
+                                <Font name="System Bold" size="15.0" />
+                            </font>
+                            <padding>
+                                <Insets left="10.0" />
+                            </padding>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="569.0" prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;Goto Task">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="589.0" prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;Goto Upload Task">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="609.0" prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;Write the Description about the task">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="629.0" prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;Click on Browse button and select file or data which you want to upload">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="649.0" prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;Click on Upload to upload the task">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="669.0" prefHeight="17.0" prefWidth="797.0" text="To download task">
+                            <font>
+                                <Font name="System Bold" size="15.0" />
+                            </font>
+                            <padding>
+                                <Insets left="10.0" top="10.0" />
+                            </padding>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="700.0" prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;Goto Task">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="720.0" prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;Goto Download Task">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="740.0" prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;Select the table row from the table which you want to download">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="760.0" prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;You get the file name below the table list">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="780.0" prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;Click on Download button to download the data">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1098.0" prefHeight="17.0" prefWidth="797.0" text="To delete task">
+                            <font>
+                                <Font name="System Bold" size="15.0" />
+                            </font>
+                            <padding>
+                                <Insets left="10.0" top="10.0" />
+                            </padding>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1129.0" prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;Goto Task">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1149.0" prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;Goto Upload Task">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1169.0" prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;Select the table row from the table which you want to download">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1189.0" prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;You get the file name below the table list">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1209.0" prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;Click on Download button to download the data">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1229.0" prefHeight="17.0" prefWidth="797.0" text="To show the submitted task">
+                            <font>
+                                <Font name="System Bold" size="15.0" />
+                            </font>
+                            <padding>
+                                <Insets left="10.0" top="10.0" />
+                            </padding>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1260.0" prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;Goto Task">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1391.0" prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;Goto Submitted Task">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1300.0" prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;Select the subject from combobox">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1320.0" prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;Click on Go to show the submitted list in table">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="931.0" prefHeight="17.0" prefWidth="811.0" text="History" textFill="#990000">
+                            <padding>
+                                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                            </padding>
+                            <font>
+                                <Font name="System Bold" size="17.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1391.0" prefHeight="17.0" prefWidth="797.0" text="&gt;&gt;Goto History and view the work starting from signup or login to last moment">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                    </children>
+                </TextFlow>
+            </content>
+        </ScrollPane>
+    </children>
+</AnchorPane>

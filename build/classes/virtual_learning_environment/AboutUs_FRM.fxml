@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+<AnchorPane prefWidth="1228.0" style="-fx-background-color: #FFFFFF;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="virtual_learning_environment.Controller">
+    <children>
+        <VBox alignment="CENTER" layoutX="-127.0" prefHeight="651.0" prefWidth="906.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <HBox alignment="CENTER" prefHeight="409.0" prefWidth="1228.0" spacing="50.0">
+                    <VBox.margin>
+                        <Insets />
+                    </VBox.margin>
+                    <children>
+                        <ImageView fitHeight="296.0" fitWidth="1210.0" pickOnBounds="true" preserveRatio="true" style="-fx-border-color: black;">
+                            <image>
+                                <Image url="@../images/vle%20(1).png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                    <padding>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                    </padding>
+                </HBox>
+                <HBox alignment="CENTER" prefHeight="210.0" prefWidth="1195.0">
+                    <children>
+                        <VBox alignment="CENTER" prefHeight="210.0" prefWidth="58.0">
+                            <HBox.margin>
+                                <Insets />
+                            </HBox.margin>
+                            <children>
+                                <ImageView fitHeight="45.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../images/1%20(2).PNG" />
+                                    </image>
+                                </ImageView>
+                                <ImageView fitHeight="45.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../images/1%20(2).PNG" />
+                                    </image>
+                                </ImageView>
+                                <ImageView fitHeight="45.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../images/1%20(2).PNG" />
+                                    </image>
+                                </ImageView>
+                                <ImageView fitHeight="45.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../images/1%20(2).PNG" />
+                                    </image>
+                                </ImageView>
+                            </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="210.0" prefWidth="1070.0">
+                            <children>
+                                <TextFlow prefHeight="55.0" prefWidth="1217.0">
+                                    <children>
+                                        <Text fill="#990000" strokeType="OUTSIDE" strokeWidth="0.0" text="Virtual learning environment is a project which is developed to provide support in the  academic administration, teaching and research using the internet, particularly in the world wide web." wrappingWidth="994.8515625">
+                                            <font>
+                                                <Font name="System Bold Italic" size="17.0" />
+                                            </font>
+                                        </Text>
+                                    </children>
+                                    <padding>
+                                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                                    </padding>
+                                </TextFlow>
+                                <TextFlow prefHeight="33.0" prefWidth="1217.0">
+                                    <children>
+                                        <Text fill="#990000" strokeType="OUTSIDE" strokeWidth="0.0" text="Visual  learning is a  form of e-learning that allows the interaction between teachers and students." wrappingWidth="994.8515625">
+                                            <font>
+                                                <Font name="System Bold Italic" size="17.0" />
+                                            </font>
+                                        </Text>
+                                    </children>
+                                    <padding>
+                                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                                    </padding>
+                                </TextFlow>
+                                <TextFlow prefHeight="33.0" prefWidth="1217.0">
+                                    <children>
+                                        <Text fill="#990000" strokeType="OUTSIDE" strokeWidth="0.0" text="This project provides various kinds of activities to students by introducing tutors and learners." wrappingWidth="994.8515625">
+                                            <font>
+                                                <Font name="System Bold Italic" size="17.0" />
+                                            </font>
+                                        </Text>
+                                    </children>
+                                    <padding>
+                                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                                    </padding>
+                                </TextFlow>
+                                <TextFlow prefHeight="33.0" prefWidth="1217.0">
+                                    <children>
+                                        <Text fill="#990000" strokeType="OUTSIDE" strokeWidth="0.0" text="This project allows students to get information of the courses in a very easy and quick way. " wrappingWidth="994.8515625">
+                                            <font>
+                                                <Font name="System Bold Italic" size="17.0" />
+                                            </font>
+                                        </Text>
+                                    </children>
+                                    <padding>
+                                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                                    </padding>
+                                </TextFlow>
+                            </children>
+                        </VBox>
+                    </children>
+                    <padding>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                    </padding>
+                    <VBox.margin>
+                        <Insets />
+                    </VBox.margin>
+                </HBox>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="virtual_learning_environment.Controller">
+   <children>
+        <GridPane onMouseClicked="#cmb_Add" prefHeight="670.0" prefWidth="1019.0" style="-fx-background-color: #990000;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <AnchorPane prefHeight="635.0" prefWidth="417.0" style="-fx-background-color: WHITE; -fx-background-insets: 5;">
+                    <children>
+                        <VBox alignment="CENTER" prefHeight="635.0" prefWidth="415.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="0.0" prefWidth="510.0">
+                           <children>
+                              <ImageView fitHeight="123.0" fitWidth="109.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../images/loginIcon.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                           <padding>
+                              <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="0.0" prefWidth="510.0" spacing="15.0">
+                           <children>
+                              <JFXTextField fx:id="txtSignupFirstNm" focusColor="#990000" labelFloat="true" prefHeight="34.0" prefWidth="109.0" promptText="First Name" />
+                              <JFXTextField fx:id="txtSignupMiddleNm" focusColor="#990000" labelFloat="true" prefHeight="34.0" prefWidth="126.0" promptText="Middle Name" />
+                              <JFXTextField fx:id="txtSignupLastNm" focusColor="#990000" labelFloat="true" prefHeight="34.0" prefWidth="126.0" promptText="Last Name" />
+                           </children>
+                           <padding>
+                              <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="10.0" prefWidth="510.0">
+                           <children>
+                              <Label prefHeight="17.0" prefWidth="80.0" text="Gender" />
+                              <JFXRadioButton fx:id="radioSignUpMale" prefHeight="17.0" prefWidth="115.0" selected="true" selectedColor="#990000" text="Male">
+                                 <toggleGroup>
+                                    <ToggleGroup fx:id="gender" />
+                                 </toggleGroup>
+                              </JFXRadioButton>
+                              <JFXRadioButton fx:id="radioSignUpFemale" selectedColor="#990000" text="Female" toggleGroup="$gender" />
+                           </children>
+                           <padding>
+                              <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="BOTTOM_CENTER" prefHeight="0.0" prefWidth="510.0">
+                           <children>
+                              <JFXComboBox fx:id="cmbCategory" onMouseClicked="#cmb_Add" prefHeight="36.0" prefWidth="390.0" promptText="Category" />
+                           </children>
+                           <padding>
+                              <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="BOTTOM_CENTER" prefHeight="0.0" prefWidth="510.0">
+                           <children>
+                              <JFXTextField fx:id="txtSignupContactNo" focusColor="#990000" labelFloat="true" prefHeight="36.0" prefWidth="392.0" promptText="Contact No." />
+                           </children>
+                           <padding>
+                              <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="BOTTOM_CENTER" prefHeight="0.0" prefWidth="510.0">
+                           <children>
+                              <JFXTextField fx:id="txtSignupMailId" focusColor="#990000" labelFloat="true" prefHeight="36.0" prefWidth="394.0" promptText="Mail ID" />
+                           </children>
+                           <padding>
+                              <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="BOTTOM_CENTER" prefHeight="0.0" prefWidth="510.0">
+                           <children>
+                              <JFXPasswordField fx:id="txtSignupPwd" focusColor="#990000" labelFloat="true" prefHeight="34.0" prefWidth="398.0" promptText="Password" />
+                           </children>
+                           <padding>
+                              <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="BOTTOM_CENTER" prefHeight="0.0" prefWidth="510.0">
+                           <children>
+                              <JFXPasswordField fx:id="txtSignupConPwd" focusColor="#990000" labelFloat="true" prefHeight="34.0" prefWidth="398.0" promptText="Confirm Password" />
+                           </children>
+                           <padding>
+                              <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="BOTTOM_CENTER" prefHeight="2.0" prefWidth="510.0">
+                           <children>
+                              <JFXDatePicker fx:id="dateSignupBirthDate" defaultColor="#990000" prefHeight="34.0" prefWidth="398.0" promptText="Date of Birth" />
+                           </children>
+                           <padding>
+                              <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="0.0" prefWidth="510.0">
+                           <children>
+                              <JFXButton fx:id="btnSgnupClear" onMouseClicked="#btnSignUp_Clear" prefHeight="34.0" prefWidth="180.0" style="-fx-background-color: #990000; -fx-background-radius: 20;" text="Clear" textFill="#fcfcfc">
+                                 <opaqueInsets>
+                                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                 </opaqueInsets>
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                                 </HBox.margin>
+                                 <graphic>
+                                    <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../images/clear.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </JFXButton>
+                              <JFXButton fx:id="btnSignupSignup" onMouseClicked="#btnSignUp_SignUp" prefHeight="34.0" prefWidth="180.0" style="-fx-background-color: #990000; -fx-background-radius: 20;" text="SignUp" textFill="#fcfcfc">
+                                 <opaqueInsets>
+                                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                 </opaqueInsets>
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                                 </HBox.margin>
+                                 <graphic>
+                                    <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../images/signUp.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </JFXButton>
+                           </children>
+                           <padding>
+                              <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+                           </padding>
+                        </HBox>
+                     </children>
+                        </VBox>
+                    </children>
+                </AnchorPane>
+            </children>
+        </GridPane>
+    </children>
+</AnchorPane>
